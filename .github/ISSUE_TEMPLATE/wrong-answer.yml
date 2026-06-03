@@ -1,0 +1,44 @@
+name: Wrong answer report
+description: Report a bad or confusing answer using public-safe sample data only.
+title: "[Wrong Answer]: "
+labels: ["wrong-answer", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include real company data, real PDFs, customer names, phone numbers, addresses, or secrets.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What did you ask?
+      placeholder: "Example: 10W 재고 있나?"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual answer
+      description: What did the lab assistant answer?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected answer
+      description: What should it have answered instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Problem type
+      options:
+        - Wrong product match
+        - Missing follow-up question
+        - Hallucinated fact
+        - Confusing answer
+        - Missing evidence
+        - Other
+    validations:
+      required: true

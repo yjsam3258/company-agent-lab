@@ -1,0 +1,31 @@
+name: Local AI runtime idea
+description: Suggest a lightweight local AI runtime, model, or benchmark.
+title: "[Local AI]: "
+labels: ["local-ai", "research"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project or model name
+      placeholder: "Example: llama.cpp, Ollama, LocalAI"
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: "Example: MIT, Apache-2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it may help
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Known risks or license concerns
+    validations:
+      required: false

@@ -1,0 +1,29 @@
+name: OCR or extraction failure
+description: Report a public-safe sample OCR/table extraction problem.
+title: "[OCR]: "
+labels: ["ocr", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only use fake/sample documents. Do not upload real customer PDFs.
+  - type: textarea
+    id: sample_text
+    attributes:
+      label: Sample text or table
+      description: Paste sanitized sample text.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_fields
+    attributes:
+      label: Expected fields
+      placeholder: "model: LUM-SAMPLE-001, power: 10W, color: 웜화이트"
+    validations:
+      required: true
+  - type: textarea
+    id: actual_fields
+    attributes:
+      label: Actual extracted fields
+    validations:
+      required: false

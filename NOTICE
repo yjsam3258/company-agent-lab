@@ -1,0 +1,14 @@
+Company Agent Lab Notices
+
+This repository is a public-safe lab project. It does not include private
+company ERP data, real customer documents, private model adapters, or private
+training logs.
+
+If third-party code, models, or datasets are added later, their license text
+and required notices must be added before release.
+
+Current external dependency status:
+
+- No required third-party runtime dependency for the first lab version.
+- Optional future candidates must pass the license intake policy in
+  docs/open-source-intake-policy.md.

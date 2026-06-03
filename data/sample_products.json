@@ -1,0 +1,51 @@
+[
+  {
+    "identifier": "10000001",
+    "model": "LUM-SAMPLE-010W-A",
+    "product_name": "Sample 10W electric bollard",
+    "product_group": ["bollard", "electric"],
+    "power": "10W",
+    "voltage": "DC24V",
+    "size": "120X120X900H",
+    "light_color": "웜화이트",
+    "price": 380000,
+    "evidence": "sample_catalog_page_1"
+  },
+  {
+    "identifier": "10000002",
+    "model": "LUM-SAMPLE-SOLAR-050W",
+    "product_name": "Sample 50W solar light",
+    "product_group": ["solar", "landscape"],
+    "power": "50W",
+    "voltage": "DC3.7V",
+    "battery": "3.7V / 4000mAh",
+    "light_color": "쿨화이트",
+    "price": 490000,
+    "evidence": "sample_catalog_page_2"
+  },
+  {
+    "identifier": "10000003",
+    "model": "LUM-SAMPLE-BOLLARD-WW",
+    "product_name": "Sample warm white solar bollard",
+    "product_group": ["bollard", "solar"],
+    "power": "5W",
+    "voltage": "DC3.2V",
+    "battery": "3.2V / 3800mAh",
+    "size": "235X280H",
+    "light_color": "웜화이트",
+    "price": 120000,
+    "evidence": "sample_catalog_page_3"
+  },
+  {
+    "identifier": "10000004",
+    "model": "LUM-SAMPLE-100W-FLOOD",
+    "product_name": "Sample 100W flood light",
+    "product_group": ["flood", "electric"],
+    "power": "100W",
+    "voltage": "DC24V",
+    "size": "300X250X80",
+    "light_color": "주백색",
+    "price": 690000,
+    "evidence": "sample_catalog_page_4"
+  }
+]

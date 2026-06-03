@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sample_card_001",
+    "text": "모델명 LUM-SAMPLE-BOLLARD-WW / 식별번호 10000003 / 전력 5W / 광색 Warm White / 배터리 3.2V 3800mAh / 가격 120,000",
+    "expected": {
+      "model": "LUM-SAMPLE-BOLLARD-WW",
+      "identifier": "10000003",
+      "power": "5W",
+      "light_color": "웜화이트",
+      "price": 120000
+    }
+  },
+  {
+    "id": "sample_row_001",
+    "text": "10000004 LUM-SAMPLE-100W-FLOOD 100W DC24V 690,000 주백색",
+    "expected": {
+      "model": "LUM-SAMPLE-100W-FLOOD",
+      "identifier": "10000004",
+      "power": "100W",
+      "voltage": "DC24V",
+      "price": 690000,
+      "light_color": "주백색"
+    }
+  }
+]

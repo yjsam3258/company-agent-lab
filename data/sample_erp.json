@@ -1,0 +1,50 @@
+{
+  "inventory": [
+    {
+      "identifier": "10000001",
+      "model": "LUM-SAMPLE-010W-A",
+      "stock": 8,
+      "status": "정상",
+      "recent_purchase_date": "2026-06-01",
+      "recent_cost": 53750
+    },
+    {
+      "identifier": "10000003",
+      "model": "LUM-SAMPLE-BOLLARD-WW",
+      "stock": 0,
+      "status": "품절",
+      "recent_purchase_date": "2026-05-20",
+      "recent_cost": 42000
+    }
+  ],
+  "orders": [
+    {
+      "order_no": "SAMPLE-ORDER-001",
+      "customer": "Sample City",
+      "project": "Sample Park Lighting",
+      "status": "입고예정",
+      "expected_date": "2026-06-10",
+      "items": [
+        {
+          "identifier": "10000002",
+          "model": "LUM-SAMPLE-SOLAR-050W",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_no": "SAMPLE-ORDER-002",
+      "customer": "Sample County",
+      "project": "Sample Road Bollard",
+      "status": "입고완료",
+      "received_date": "2026-06-02",
+      "items": [
+        {
+          "identifier": "10000001",
+          "model": "LUM-SAMPLE-010W-A",
+          "quantity": 8
+        }
+      ]
+    }
+  ]
+}

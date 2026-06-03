@@ -1,0 +1,26 @@
+name: License or safety concern
+description: Report a dependency, model, data, or legal safety concern.
+title: "[License/Safety]: "
+labels: ["license", "safety", "needs-review"]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      placeholder: "Example: model name, package name, repository URL"
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+      description: Explain the license or safety issue.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source link
+      description: Link to license, model card, or documentation.
+    validations:
+      required: false
