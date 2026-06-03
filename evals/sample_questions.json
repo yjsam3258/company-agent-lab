@@ -3,30 +3,55 @@
     "id": "stock_10w_question_style",
     "query": "10W 재고 있나?",
     "route": "product_search",
-    "required": ["LUM-SAMPLE-010W-A", "현재고 8개", "근거 sample_catalog_page_1"]
+    "required": [
+      "LUM-SAMPLE-010W-A",
+      "현재고 8개",
+      "근거 sample_catalog_page_1"
+    ]
   },
   {
     "id": "warm_white_bollard",
     "query": "웜화이트 볼라드 알려줘",
     "route": "product_search",
-    "required": ["LUM-SAMPLE-BOLLARD-WW", "광색 웜화이트"]
+    "required": [
+      "LUM-SAMPLE-BOLLARD-WW",
+      "광색 웜화이트"
+    ]
   },
   {
     "id": "solar_50w",
     "query": "태양광 50W 제품",
     "route": "product_search",
-    "required": ["LUM-SAMPLE-SOLAR-050W", "DC3.7V"]
+    "required": [
+      "LUM-SAMPLE-SOLAR-050W",
+      "DC3.7V"
+    ]
   },
   {
     "id": "order_due_date",
     "query": "입고 예정일 알려줘",
     "route": "erp_order",
-    "required": ["SAMPLE-ORDER-001", "2026-06-10"]
+    "required": [
+      "SAMPLE-ORDER-001",
+      "2026-06-10"
+    ]
   },
   {
     "id": "unknown_asks_followup",
     "query": "30W 제품 찾아줘",
     "route": "product_search",
-    "required": ["찾지 못했습니다", "어떤 기준으로 다시 찾을까요"]
+    "required": [
+      "찾지 못했습니다",
+      "어떤 기준으로 다시 찾을까요"
+    ]
+  },
+  {
+    "id": "community_001_10w_korean_watt",
+    "query": "10와트 남아있는 거 있어?",
+    "route": "product_search",
+    "required": [
+      "LUM-SAMPLE-010W-A",
+      "현재고 8개"
+    ]
   }
 ]

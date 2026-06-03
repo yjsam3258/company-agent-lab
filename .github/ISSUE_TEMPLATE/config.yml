@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Safe feedback guide
+    url: https://github.com/yjsam3258/company-agent-lab/blob/main/docs/first-public-posts.md
+    about: Read this before posting public feedback.
+  - name: Public feedback plan
+    url: https://github.com/yjsam3258/company-agent-lab/blob/main/docs/public-feedback-plan.md
+    about: Learn how public feedback becomes a safe improvement.
