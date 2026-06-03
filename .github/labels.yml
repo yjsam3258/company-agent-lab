@@ -1,0 +1,27 @@
+- name: wrong-answer
+  color: d73a4a
+  description: The assistant produced a wrong or confusing answer.
+- name: ocr
+  color: 5319e7
+  description: OCR, PDF, table, or extraction feedback.
+- name: local-ai
+  color: 1d76db
+  description: Lightweight local AI runtime or model feedback.
+- name: license
+  color: b60205
+  description: License, model card, or dependency concern.
+- name: safety
+  color: fbca04
+  description: Privacy, security, or public release safety concern.
+- name: needs-review
+  color: cfd3d7
+  description: Needs maintainer review before action.
+- name: eval-candidate
+  color: 0e8a16
+  description: Safe feedback that can become an evaluation task.
+- name: accepted
+  color: 0e8a16
+  description: Approved for implementation.
+- name: rejected
+  color: 000000
+  description: Not safe, not relevant, or not useful.

@@ -1,0 +1,34 @@
+name: Public Safety CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  safety-and-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Public safety scan
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python scripts/scan_public_safety.py
+
+      - name: License safety scan
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python scripts/scan_license_safety.py
+
+      - name: Sample answer eval
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python scripts/run_eval.py
