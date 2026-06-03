@@ -71,13 +71,13 @@ Title:
 Question:
 
 ```text
-10와트 남아있는 거 있어?
+10 watt stock available?
 ```
 
 Actual answer:
 
 ```text
-The lab may fail to understand "10와트" if it only expects "10W".
+The lab may fail to understand "10 watt" if it only expects "10W".
 ```
 
 Expected answer:
@@ -95,7 +95,7 @@ Wrong product match
 Maintainer action:
 
 ```powershell
-python scripts\add_feedback_eval.py --id community_001_10w_korean_watt --query "10와트 남아있는 거 있어?" --route product_search --required "LUM-SAMPLE-010W-A" --required "현재고 8개"
+python scripts\add_feedback_eval.py --id community_001_10w_text_stock --query "10 watt stock available?" --route product_search --required "LUM-SAMPLE-010W-A" --required "current stock 8"
 python scripts\run_eval.py
 ```
 
